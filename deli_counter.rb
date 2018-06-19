@@ -26,3 +26,5 @@ end
 =======
 end
 >>>>>>> ef14a66392d95d07ed8f06175a378eaf301c746e
+#receive a number for what number they are for the select_day
+#
