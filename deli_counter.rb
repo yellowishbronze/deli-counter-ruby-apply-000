@@ -20,4 +20,8 @@ def now_serving(array)
   else
     puts ("There is nobody waiting to be served!")
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> ef14a66392d95d07ed8f06175a378eaf301c746e
