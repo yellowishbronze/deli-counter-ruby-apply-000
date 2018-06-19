@@ -8,8 +8,10 @@ def line(array)
   end
 end
 
-def take_a_number(array,string=1)
-  array.push(string) == 
+def take_a_number(array)
+  string = 1
+  array.push(string)
+  string +=1
   puts("Welcome, #{string}. You are number #{array.length} in line.")
   
 end
