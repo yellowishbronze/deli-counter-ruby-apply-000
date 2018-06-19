@@ -8,9 +8,10 @@ def line(array)
   end
 end
 
-def take_a_number(array,string)
-  array.push(string)
+def take_a_number(array,string=1)
+  array.push(string) == 
   puts("Welcome, #{string}. You are number #{array.length} in line.")
+  
 end
 
 def now_serving(array)
