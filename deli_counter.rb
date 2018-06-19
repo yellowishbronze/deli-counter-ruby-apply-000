@@ -23,9 +23,10 @@ def now_serving(array)
   else
     puts ("There is nobody waiting to be served!")
   end
-  
+end
+
   katz_deli = []
-  line_number = 1
+  line_number =
 <<<<<<< HEAD
 end
 =======
