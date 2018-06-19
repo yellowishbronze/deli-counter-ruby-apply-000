@@ -1,3 +1,4 @@
+
 def line(array)
   if array.length == 0
     puts ("The line is currently empty.") 
@@ -8,10 +9,10 @@ def line(array)
   end
 end
 
-def take_a_number(array)
-  string = 1
-  array.push(string)
-  string +=1
+def take_a_number(array,line_number)
+  
+  array.push(line_number)
+  
   puts("Welcome, #{string}. You are number #{array.length} in line.")
 end
 
@@ -23,6 +24,8 @@ def now_serving(array)
     puts ("There is nobody waiting to be served!")
   end
   
+  katz_deli = []
+  line_number = 1
 <<<<<<< HEAD
 end
 =======
