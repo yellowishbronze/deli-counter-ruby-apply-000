@@ -10,7 +10,6 @@ def line(array)
 end
 
 def take_a_number(array,line_number)
-  
   array.push(line_number)
   
   puts("Welcome, #{string}. You are number #{array.length} in line.")
@@ -26,7 +25,7 @@ def now_serving(array)
 end
 
   katz_deli = []
-  line_number =
+  line_number =katz_deli.length
 <<<<<<< HEAD
 end
 =======
