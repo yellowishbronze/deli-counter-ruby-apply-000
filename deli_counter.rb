@@ -9,9 +9,9 @@ def line(array)
   end
 end
 
-def take_a_number(array,line_number)
+def take_a_number(array)
   array.push(line_number)
-  
+  line_number+=1
   puts("Welcome, #{string}. You are number #{array.length} in line.")
 end
 
@@ -25,11 +25,10 @@ def now_serving(array)
 end
 
   katz_deli = []
-  line_number =katz_deli.length
+  line_number =1
+  
 <<<<<<< HEAD
 end
 =======
 end
 >>>>>>> ef14a66392d95d07ed8f06175a378eaf301c746e
-#receive a number for what number they are for the select_day
-#
